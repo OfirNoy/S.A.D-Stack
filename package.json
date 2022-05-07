@@ -1,0 +1,13 @@
+{
+  "name": "sad-website",
+  "version": "1.0.0",
+  "description": "",  
+  "scripts": {
+    "build": "node build.js"
+  },
+  "author": "Z3-C0D3R",
+  "license": "",
+  "dependencies": {
+    "fs-extra": "^10.1.0"
+  }
+}
