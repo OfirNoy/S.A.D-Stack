@@ -5,6 +5,7 @@ const clientPath = `${__dirname}/client`;
 
 console.log("Building the client");
 process.chdir(clientPath);
+executeCmd("npm i");
 executeCmd("npm run build");
 
 console.log("Building the server");
